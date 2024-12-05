@@ -3,10 +3,10 @@
 
 #define DMA_CHAN    2
 
-#define PIN_NUM_MISO 19
-#define PIN_NUM_MOSI 23
-#define PIN_NUM_CLK  18
-#define PIN_NUM_CS   25
+#define PIN_NUM_MISO 13
+#define PIN_NUM_MOSI 2
+#define PIN_NUM_CLK  12
+#define PIN_NUM_CS   21
 
 #define PIN_NUM_DC   4
 #define PIN_NUM_RST  5
