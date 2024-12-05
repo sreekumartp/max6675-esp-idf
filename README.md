@@ -1,21 +1,21 @@
 # max6675-esp-idf
-An example of how to use esp-idf to read a MAX6675 temperature sensor
+An example of how to use esp-idf to read a MAX6675 temperature sensor on esp32c6
 
 ## Motivation
 
-It is hard to get an example of a raw SPI device on internet using Espressif esp-idf, so I made this version which works as expected. Please, fell fre to add comments or suggestions.
+branch from https://github.com/jordeam/max6675-esp-idf/tree/main
 
 ## Pins map:
 
 | ESP32 | MAX6675 |
 |-------|---------|
-|    19 | SO      |
-|    23 | NC      |
-|    18 | SCK     |
-|    25 | CS      |
+|    13 | SO      |
+|     - | NC      |
+|    12 | SCK     |
+|    21 | CS      |
 
 
 ## Compatibilty
 
-The code was tested only is ESP32. For ESP32-S2, ESP32-C3, etc., the code must be adapted.
+The code was tested only on ESP32c6 ( DevkitM-1)
 
